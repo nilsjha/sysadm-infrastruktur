@@ -2,8 +2,8 @@
 variable "sg_mgmt_allow_ips" {
   description = "List of allowed IPs that can mgmt SSH into AWS"
   default = [
-    "***REMOVED***/32",
-    "***REMOVED***/32"
+    "0.0.0.0/0",
+    "127.0.0.1/32"
   ]
 }
 
